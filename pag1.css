@@ -1,0 +1,87 @@
+#foto{
+    width:5%;
+    border-radius: 50%;
+    margin-left:5% !important;
+}
+.jumbotron{
+    background-color: #2980B9 !important;
+}
+.contacto{
+    margin-left: 80% !important;
+}
+.imagen{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+#piedepagina{
+    width: 100%;
+    height: 10%;
+    background-color: #b1e3e5;
+    padding: 1% 45%;
+    text-align: center;
+}
+/*formulario*/
+.home{
+    margin-left: 90% !important;
+}
+.form{
+    background: #EEEEEE   !important;
+    padding: 5% !important;
+}
+#subcontenedor{
+    width: 100%;
+    height: 100%;
+    background-color: #D5F5E3;
+    padding: 10%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+}
+.gracias{
+    text-align: center;
+}
+#enviar{
+    margin-left: 40%;
+    border-end-start-radius: 5%;
+    width:20%;
+}
+/*des.web*/
+#texto{
+    padding: 3% !important;
+}
+h1{
+    text-align: center !important;
+}
+.imagen{
+    widows: 150px;
+    height: 150px;
+}
+.col-sm-2{
+    margin-left:3% !important;
+}
+#galeria{
+    align-content: center;
+}
+.fotoweb{
+    width: 150px;
+    height: 150px;
+    margin-left: 5%;
+}
+.fotoweb:hover{
+    transition: 2s;
+    transform: scale(3,3);
+}
+/*educ.dif*/
+#list-example{
+    width: 30% !important;
+    display: inline-table !important;
+}
+#contenido{
+    width: 60% !important;
+    display: inline-table !important;
+}
+p{
+    text-align: justify;
+}

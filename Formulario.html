@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="pag1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div class="container-fluid form">
+        <div id="subcontenedor">
+          <a class="btn btn-outline-dark home" href="pag1.html" role="button">Home</a>
+            <h1>Formulario de contacto</h1>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" class="col-sm-10 form-control" name="nombre">
+                <br>
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" class="col-sm-10 form-control" name="apellidos">
+                <br>
+                <label for="fono">Teléfono</label>
+                <input type="text" id="fono" class="col-sm-5 form-control" name="celular">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" class="col-sm-10 form-control" name="email">
+                <br>
+                <p>Área de interés</p> 
+                <select name="área">
+                    <option value="programación">Desarrollo web</option>
+                    <option value="educación">Educación diferencial</option>
+                </select>
+                <br>
+                <p>¿Por qué deseas que te contacte?</p>
+                <textarea class="col-sm-10 form-control" name="descripcion"></textarea>
+                <br>
+                <p>Preferencias de contacto</p> 
+                <select name="contacto">
+                    <option value="fono">Teléfono</option>
+                    <option value="email">Email</option>
+                </select>
+                <br>
+                <br>
+                <input id="enviar" type="submit" value="Enviar">
+                <br>
+                <br>
+                <h5 class="gracias">Procuraré dar respuesta oportuna a tu solicitu de contacto, gracias!</h5>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
+
